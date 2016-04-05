@@ -13,7 +13,7 @@ public class Ch3Coz1 {
 
         //臺北市-大臺北地區捷運車站出入口
         String api = "http://data.taipei/opendata/datalist/apiAccess?scope=resourceAquire&rid=981c68fe-03bb-4d03-9f17-eca887273c5a";
-
+        System.out.println("develop");
         // call remote api
         System.out.println(CrawlerPack.getFromRemote(api));
 
